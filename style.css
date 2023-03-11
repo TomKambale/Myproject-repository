@@ -1,0 +1,192 @@
+/* Universal styling */
+*{
+    
+    background-image: url("https://images.unsplash.com/photo-1647866872907-68443d5f5c9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* navbar styling */
+.navbar{
+    font-family: 'Courier New', Courier, monospace   ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+    padding: 30px 20px ; 
+    color: #c0c8c9;
+}
+/* TRBL (Top, Right, Bottom, Left) */
+/* Top and Bottom, Right and Left */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+/* home section */
+
+.home-section{
+    font-family: Arial, sans-serif;
+    background-color:  #a2a8d3;
+    height: 50vh;
+    text-align: center;
+}
+
+.home-section h1{
+    color: #d1cebd;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    right: 25%;
+}
+.button-paragraph {
+    background-color: #f5f5f5; /* set the background color to a light gray */
+    padding: 10px; /* add some padding to the paragraph for spacing */
+}
+
+.button-paragraph button {
+    font-size: 18px; /* style the button as needed */
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-paragraph button:hover {
+    background-color: #3e8e41;
+}
+
+/* About me section */
+.about-section {
+   /* This line makes sure the background image covers the entire section */
+    padding: 100px;
+}
+
+
+.about-header h1{
+    color: #e7eaf6;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+.about-content p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-row{
+    color: white;
+    display: flex;
+}
+.about-column{
+    color: white;
+    width: 50%;
+    padding: 30px;
+}
+
+.about-column h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about-list-content{
+    text-align: center;
+}
+.about-list{
+    display: inline-block;
+    text-align: left;
+
+}
+.about-list li{
+    padding-bottom: 10px;
+}
+
+table, th, td{
+    border: 1px solid #d1cebd;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* Project Section */
+.project-section {
+    background-color: #a7bcb9;
+    padding: 40px;
+}
+.project-section h1{
+    color: #d1cebd;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.row{
+    color: #d1cebd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column{
+    width: 33.33%;
+}
+
+/* Contact section */
+
+.contact-section {
+    color: #d1cebd;
+    background-color: #38598b;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.contact-section h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact-section p {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    color: #d1cebd;
+    background-color: #ececec;
+    padding: 50px;
+    text-align: center;
+}
